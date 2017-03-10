@@ -15,10 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('halo' , function() {
+Route::get('/Gambar' , function() {
 return view('terserah.halo');
 });
 
-Route::get('bebas' , function() {
+Route::get('/Profile' , function() {
 return view('bebas');
+});
+
+Route::get('/Kembali' , function() {
+return view('welcome');
 });
